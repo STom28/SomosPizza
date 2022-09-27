@@ -1,0 +1,272 @@
+body{ 
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(multimedia/fondo3.jpg);
+    
+}
+
+.logo1{
+	margin-top: 10px;
+	z-index: 2;
+	height: 80px;
+    position: relative;
+    float: left;
+    padding-left: 15px;
+}
+
+.header-1{
+    background: url(multimedia/header1.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.button-nav a{
+    border-radius: 20px 50px 20px 50px;
+    color: white;
+    padding: 20px 25px ;
+    font-size: 25px;
+    background: #332f2c;
+    text-decoration: none;
+    float: right;
+    margin: 20px 40px 0px 40px;
+    position: fixed;
+    right: 5%;
+}
+.buttom-box:hover{
+    box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,25);
+    transition: .1s;
+}
+a:hover{
+    color: #f97613;
+    text-shadow: 0 0.4rem 1.2rem rgba(0,0,0,25);
+}
+
+
+
+.menu-header{
+    background-color: #332f2c;
+    height: 400px;
+    width: 300px;
+    
+    margin-top: 80px;
+    position: fixed;
+    right: 5%; 
+}
+.menu-header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    position: fixed;
+    text-align: center;
+
+}
+.menu-header:hover{
+    box-shadow: 0 0.2rem 1rem rgba(0,0,0,10);
+    transition: .2s;
+}
+
+
+div a{
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    
+}
+.redes{
+    color:grey;
+}
+
+
+
+
+
+
+
+
+.info-titulo{
+    height: 300px;
+    width: 70%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.title-pro{
+    font-size: 105px;
+    font-family: 'Bungee Spice', cursive;
+    float: left;
+    padding-left: 50px;
+    margin: 30px 0 0 0;
+}
+.subtitle-pro{
+    font-family: 'Cairo Play', cursive;
+    float: left;
+    padding-left: 50px;
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+/*Limite de reparto*/
+
+.menu2-header img{
+    position: relative;
+    top: 65%;
+    height: 200px;
+    width: 300px;
+    float: right;
+    position: fixed;
+    right: 5%;
+}
+.menu2-header img:hover{
+    box-shadow: 0 0.4rem 1rem rgba(0,0,0,10);
+    transition: .1s;
+    transform: scale(1.1);
+}
+
+
+/*secton*/
+section{
+    padding-bottom: 30px;
+}
+.title-carta h2{
+    font-size: 80px;
+    font-family: 'Bungee Spice', cursive;
+    float: left;
+    padding-left: 50px;
+    margin-bottom:0;
+    margin-top: 0;
+}
+
+
+
+/* Carta*/
+
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-left: 50px;
+    max-width: 60%;
+    
+}
+.sub-menu{
+    display:grid;
+    grid-template-rows: auto 1fr 1fr;
+    text-align: center;
+    color: white;
+    height: 250px;
+    width: 170px;
+    background: #332f2c;
+    border-radius: 25px;  
+}
+
+.sub-menu:hover{
+    box-shadow: 0 0.4rem 1rem rgba(0,0,0,10);
+    transition: .1s;
+    transform: scale(1.2);
+}
+
+
+
+/*empanadas*/
+
+.info-titulo2{
+    padding-bottom: 40px;
+    width: 70%;
+    display: grid;
+}
+.title-pro2{
+    font-size: 80px;
+    font-family: 'Bungee Spice', cursive;
+    float: left;
+    padding-left: 50px;
+    margin-bottom:0;
+}
+.empanadas{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-left: 50px;
+    max-width: 60%;
+}
+
+
+
+/*promos*/
+.info-promo{
+    padding-bottom: 40px;
+    width: 70%;
+    display: grid;
+}
+.sub-promo{
+    display:grid;
+    grid-template-rows: auto 1fr 1fr;
+    text-align: center;
+    color: white;
+    height: 350px;
+    width: 250px;
+    background: #332f2c;
+    border-radius: 25px; 
+}
+.title-promo{
+    font-size: 80px;
+    font-family: 'Bungee Spice', cursive;
+    float: left;
+    padding-left: 50px;
+    margin-bottom:0;
+}
+.promos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-left: 50px;
+    max-width: 60%;
+}
+.sub-promo:hover{
+    box-shadow: 0 0.4rem 1rem rgba(0,0,0,10);
+    transition: .1s;
+    transform: scale(1.2);
+}
+
+
+
+/*footer*/
+
+footer{
+	height: 60px;
+    background-color: #222;
+    color: #fff;
+}
+
+footer section{
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+footer p{
+    margin: 10px;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    border:1px solid #efefef;
+    padding:5px;
+    margin: 5px;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
